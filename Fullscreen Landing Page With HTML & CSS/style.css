@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  color: #db8718;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url("https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+  height: 100vh;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* align in the center */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 50px;
+  line-height: 1;
+  text-transform: capitalize;
+}
+
+#showcase p {
+  font-size: 20px;
+}
+
+#showcase .button {
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: #f7f5f3;
+  /* border: 2px solid #926329; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* push down */
+  margin-top: 20px;
+}
+
+#showcase .button:hover {
+  background: #46b1c9;
+  color: #fff;
+  border: 2px solid #46b1c9;
+  transition: linear 2s;
+}
+
+#section-a {
+  padding: 20px;
+  background: #926239;
+  color: #fff;
+  text-align: center;
+}
+
+#section-b {
+  padding: 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+#section-c {
+  display: flex;
+}
+
+#section-c div {
+  padding: 20px;
+}
+
+#section-c .box-1,
+#section-c .box-3 {
+  background: #926239;
+  color: #fff;
+}
+
+#section-c .box-2 {
+  background: #f4f4f4;
+}

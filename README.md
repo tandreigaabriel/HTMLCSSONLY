@@ -9,3 +9,5 @@ Here you can find some projects made with HTML CSS wich have some functionality 
 5.Responsive Landing Page Using HTML & CSS(jQuery)
 6.HTML & CSS Easy Elegant Landing Page With Blur Effect
 7.Mobile First Website - HTML5 & CSS3
+8.Fullscreen Landing Page With HTML & CSS
+9.Grid Layout With Image Span
