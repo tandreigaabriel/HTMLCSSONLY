@@ -51,8 +51,9 @@ body {
 #showcase .button:hover {
   background: #46b1c9;
   color: #fff;
-  border: 2px solid #46b1c9;
+  border: 2px #46b1c9;
   transition: linear 2s;
+  outline: none;
 }
 
 #section-a {
