@@ -1,0 +1,72 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #333;
+  color: #fff;
+}
+
+.tl {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.col {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.price-box {
+  background: #fff;
+  color: #555;
+  list-style-type: none;
+  border: 1px solid #555;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.price-box:hover,
+.price-box.best {
+  box-shadow: 0 10px 15px 0 #000;
+}
+
+.price-box .header {
+  background-color: #111;
+  color: #fff;
+  font-size: 25px;
+}
+
+.price-box li {
+  line-height: 3;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+
+.price-box .emph {
+  background-color: #fff;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #e98a15;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.price-box .header.header-green {
+  background-color: #e98a15;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .col {
+    width: 100%;
+  }
+}
