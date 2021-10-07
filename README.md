@@ -17,3 +17,5 @@ Here you can find some projects made with HTML CSS wich have some functionality 
 11.CSS Hamburger Menu & Overlay
 12.Fixed scrolling
 13.Bootstrap Theme
+14.Pricing boxes
+15.Portfolio website
